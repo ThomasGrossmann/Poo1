@@ -12,31 +12,43 @@
 
 ActiveRecord::Schema.define(version: 2023_02_20_154612) do
 
-  create_table "categories", charset: "latin1", force: :cascade do |t|
+  create_table "categories", charset: "utf8mb4", force: :cascade do |t|
     t.string "name"
     t.text "description"
   end
 
-  create_table "clients", charset: "latin1", force: :cascade do |t|
+  create_table "clients", charset: "utf8mb4", force: :cascade do |t|
     t.string "firstname"
     t.string "lastname"
   end
 
-  create_table "orders", charset: "latin1", force: :cascade do |t|
+  create_table "order_items", charset: "utf8mb4", force: :cascade do |t|
+    t.integer "quantity"
+    t.decimal "item_price", precision: 10, scale: 2
+    t.bigint "order_id", null: false
+    t.bigint "product_id", null: false
+    t.index ["order_id"], name: "index_order_items_on_order_id"
+    t.index ["product_id"], name: "index_order_items_on_product_id"
+  end
+
+  create_table "orders", charset: "utf8mb4", force: :cascade do |t|
     t.datetime "created_at"
     t.datetime "shipped_at"
     t.string "status"
+    t.bigint "client_id", null: false
+    t.index ["client_id"], name: "index_orders_on_client_id"
   end
 
-  create_table "orders_items", charset: "latin1", force: :cascade do |t|
-    t.integer "quantity"
-    t.integer "item_price"
-  end
-
-  create_table "products", charset: "latin1", force: :cascade do |t|
+  create_table "products", charset: "utf8mb4", force: :cascade do |t|
     t.string "name"
     t.text "description"
-    t.integer "price"
+    t.decimal "price", precision: 10, scale: 2
+    t.bigint "category_id", null: false
+    t.index ["category_id"], name: "index_products_on_category_id"
   end
 
+  add_foreign_key "order_items", "orders"
+  add_foreign_key "order_items", "products"
+  add_foreign_key "orders", "clients"
+  add_foreign_key "products", "categories"
 end

@@ -1,4 +1,5 @@
 class Order < ActiveRecord::Base
   belongs_to :client
-  has_many :products, :through: :order_item
+  has_many :order_items
+  has_many :products, through: :order_items
 end

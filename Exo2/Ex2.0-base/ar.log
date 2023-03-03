@@ -1,2 +1,684 @@
 # Logfile created on 2023-02-20 16:24:52 +0100 by logger.rb/v1.5.0
 D, [2023-02-20T16:25:21.675695 #15308] DEBUG -- :    (0.2ms)  SELECT 1
+D, [2023-03-03T08:14:25.934197 #25584] DEBUG -- :    (0.3ms)  SELECT 1
+D, [2023-03-03T08:16:52.416572 #6656] DEBUG -- :    (0.1ms)  SELECT 1
+D, [2023-03-03T08:16:52.475573 #6656] DEBUG -- :   TRANSACTION (0.2ms)  BEGIN
+D, [2023-03-03T08:16:52.479552 #6656] DEBUG -- :   Category Create (3.8ms)  INSERT INTO `categories` (`name`, `description`) VALUES ('Category 1', 'Description 1')
+D, [2023-03-03T08:16:52.486444 #6656] DEBUG -- :   TRANSACTION (1.5ms)  COMMIT
+D, [2023-03-03T08:16:52.487188 #6656] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T08:16:52.487489 #6656] DEBUG -- :   Category Create (0.2ms)  INSERT INTO `categories` (`name`, `description`) VALUES ('Category 2', 'Description 2')
+D, [2023-03-03T08:16:52.488449 #6656] DEBUG -- :   TRANSACTION (0.6ms)  COMMIT
+D, [2023-03-03T08:16:52.488863 #6656] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T08:16:52.489119 #6656] DEBUG -- :   Category Create (0.1ms)  INSERT INTO `categories` (`name`, `description`) VALUES ('Category 3', 'Description 3')
+D, [2023-03-03T08:16:52.489732 #6656] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T08:26:42.030115 #2468] DEBUG -- :    (0.2ms)  SELECT 1
+D, [2023-03-03T08:26:42.051654 #2468] DEBUG -- :   TRANSACTION (0.2ms)  BEGIN
+D, [2023-03-03T08:26:42.052076 #2468] DEBUG -- :   Category Create (0.3ms)  INSERT INTO `categories` (`name`, `description`) VALUES ('Category 1', 'Description 1')
+D, [2023-03-03T08:26:42.054586 #2468] DEBUG -- :   TRANSACTION (0.7ms)  COMMIT
+D, [2023-03-03T08:26:42.055044 #2468] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T08:26:42.055277 #2468] DEBUG -- :   Category Create (0.2ms)  INSERT INTO `categories` (`name`, `description`) VALUES ('Category 2', 'Description 2')
+D, [2023-03-03T08:26:42.055832 #2468] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T08:26:42.056121 #2468] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T08:26:42.056363 #2468] DEBUG -- :   Category Create (0.1ms)  INSERT INTO `categories` (`name`, `description`) VALUES ('Category 3', 'Description 3')
+D, [2023-03-03T08:26:42.056949 #2468] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T08:29:06.579461 #14376] DEBUG -- :    (0.1ms)  SELECT 1
+D, [2023-03-03T08:29:06.603502 #14376] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T08:29:06.603783 #14376] DEBUG -- :   Category Create (0.2ms)  INSERT INTO `categories` (`name`, `description`) VALUES ('Category 1', 'Description 1')
+D, [2023-03-03T08:29:06.606108 #14376] DEBUG -- :   TRANSACTION (0.7ms)  COMMIT
+D, [2023-03-03T08:29:06.606495 #14376] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T08:29:06.606739 #14376] DEBUG -- :   Category Create (0.2ms)  INSERT INTO `categories` (`name`, `description`) VALUES ('Category 2', 'Description 2')
+D, [2023-03-03T08:29:06.607338 #14376] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T08:29:06.607603 #14376] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T08:29:06.607808 #14376] DEBUG -- :   Category Create (0.2ms)  INSERT INTO `categories` (`name`, `description`) VALUES ('Category 3', 'Description 3')
+D, [2023-03-03T08:29:06.608284 #14376] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
+D, [2023-03-03T08:29:54.007627 #10248] DEBUG -- :    (0.2ms)  SELECT 1
+D, [2023-03-03T08:29:54.033107 #10248] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T08:29:54.033544 #10248] DEBUG -- :   Category Create (0.2ms)  INSERT INTO `categories` (`name`, `description`) VALUES ('Category 1', 'Description 1')
+D, [2023-03-03T08:29:54.036155 #10248] DEBUG -- :   TRANSACTION (0.8ms)  COMMIT
+D, [2023-03-03T08:29:54.036600 #10248] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T08:29:54.036926 #10248] DEBUG -- :   Category Create (0.2ms)  INSERT INTO `categories` (`name`, `description`) VALUES ('Category 2', 'Description 2')
+D, [2023-03-03T08:29:54.037516 #10248] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T08:29:54.037812 #10248] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T08:29:54.038063 #10248] DEBUG -- :   Category Create (0.1ms)  INSERT INTO `categories` (`name`, `description`) VALUES ('Category 3', 'Description 3')
+D, [2023-03-03T08:29:54.038774 #10248] DEBUG -- :   TRANSACTION (0.6ms)  COMMIT
+D, [2023-03-03T08:32:21.825683 #17796] DEBUG -- :    (0.2ms)  SELECT 1
+D, [2023-03-03T08:32:21.851875 #17796] DEBUG -- :   TRANSACTION (0.2ms)  BEGIN
+D, [2023-03-03T08:32:21.852257 #17796] DEBUG -- :   Category Create (0.2ms)  INSERT INTO `categories` (`name`, `description`) VALUES ('Category 1', 'Description 1')
+D, [2023-03-03T08:32:21.854770 #17796] DEBUG -- :   TRANSACTION (0.8ms)  COMMIT
+D, [2023-03-03T08:32:21.855306 #17796] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T08:32:21.855634 #17796] DEBUG -- :   Category Create (0.2ms)  INSERT INTO `categories` (`name`, `description`) VALUES ('Category 2', 'Description 2')
+D, [2023-03-03T08:32:21.856245 #17796] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T08:32:21.856588 #17796] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T08:32:21.856895 #17796] DEBUG -- :   Category Create (0.2ms)  INSERT INTO `categories` (`name`, `description`) VALUES ('Category 3', 'Description 3')
+D, [2023-03-03T08:32:21.857491 #17796] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T08:42:40.132948 #6452] DEBUG -- :    (0.1ms)  SELECT 1
+D, [2023-03-03T08:42:40.159935 #6452] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T08:42:40.160318 #6452] DEBUG -- :   Category Create (0.2ms)  INSERT INTO `categories` (`name`, `description`) VALUES ('Category 1', 'Description 1')
+D, [2023-03-03T08:42:40.162561 #6452] DEBUG -- :   TRANSACTION (0.6ms)  COMMIT
+D, [2023-03-03T08:42:40.163028 #6452] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T08:42:40.163307 #6452] DEBUG -- :   Category Create (0.1ms)  INSERT INTO `categories` (`name`, `description`) VALUES ('Category 2', 'Description 2')
+D, [2023-03-03T08:42:40.163829 #6452] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
+D, [2023-03-03T08:42:40.164100 #6452] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T08:42:40.164226 #6452] DEBUG -- :   Category Create (0.1ms)  INSERT INTO `categories` (`name`, `description`) VALUES ('Category 3', 'Description 3')
+D, [2023-03-03T08:42:40.164652 #6452] DEBUG -- :   TRANSACTION (0.3ms)  COMMIT
+D, [2023-03-03T08:43:52.681225 #23852] DEBUG -- :    (0.2ms)  SELECT 1
+D, [2023-03-03T08:43:52.705418 #23852] DEBUG -- :   TRANSACTION (0.2ms)  BEGIN
+D, [2023-03-03T08:43:52.705802 #23852] DEBUG -- :   Category Create (0.2ms)  INSERT INTO `categories` (`name`, `description`) VALUES ('Category 1', 'Description 1')
+D, [2023-03-03T08:43:52.708137 #23852] DEBUG -- :   TRANSACTION (0.7ms)  COMMIT
+D, [2023-03-03T08:43:52.708573 #23852] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T08:43:52.708884 #23852] DEBUG -- :   Category Create (0.2ms)  INSERT INTO `categories` (`name`, `description`) VALUES ('Category 2', 'Description 2')
+D, [2023-03-03T08:43:52.709516 #23852] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T08:43:52.709840 #23852] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T08:43:52.710142 #23852] DEBUG -- :   Category Create (0.2ms)  INSERT INTO `categories` (`name`, `description`) VALUES ('Category 3', 'Description 3')
+D, [2023-03-03T08:43:52.710764 #23852] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:09:21.249937 #6556] DEBUG -- :    (0.2ms)  SELECT 1
+D, [2023-03-03T09:09:21.274137 #6556] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:09:21.274603 #6556] DEBUG -- :   Category Create (0.2ms)  INSERT INTO `categories` (`name`, `description`) VALUES ('Category 1', 'Description 1')
+D, [2023-03-03T09:09:21.277154 #6556] DEBUG -- :   TRANSACTION (0.7ms)  COMMIT
+D, [2023-03-03T09:09:21.277620 #6556] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:09:21.277918 #6556] DEBUG -- :   Category Create (0.2ms)  INSERT INTO `categories` (`name`, `description`) VALUES ('Category 2', 'Description 2')
+D, [2023-03-03T09:09:21.278527 #6556] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:09:21.278851 #6556] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:09:21.279046 #6556] DEBUG -- :   Category Create (0.1ms)  INSERT INTO `categories` (`name`, `description`) VALUES ('Category 3', 'Description 3')
+D, [2023-03-03T09:09:21.279743 #6556] DEBUG -- :   TRANSACTION (0.6ms)  COMMIT
+D, [2023-03-03T09:09:21.321917 #6556] DEBUG -- :   TRANSACTION (0.2ms)  BEGIN
+D, [2023-03-03T09:09:21.322388 #6556] DEBUG -- :   Product Create (0.3ms)  INSERT INTO `products` (`name`, `description`, `price`, `category_id`) VALUES ('Product 1', 'Description 1', 1, 1)
+D, [2023-03-03T09:09:21.323375 #6556] DEBUG -- :   TRANSACTION (0.6ms)  COMMIT
+D, [2023-03-03T09:09:21.324037 #6556] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:09:21.324340 #6556] DEBUG -- :   Product Create (0.2ms)  INSERT INTO `products` (`name`, `description`, `price`, `category_id`) VALUES ('Product 2', 'Description 2', 2, 1)
+D, [2023-03-03T09:09:21.324951 #6556] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:09:21.325528 #6556] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:09:21.325822 #6556] DEBUG -- :   Product Create (0.2ms)  INSERT INTO `products` (`name`, `description`, `price`, `category_id`) VALUES ('Product 3', 'Description 3', 3, 2)
+D, [2023-03-03T09:09:21.326424 #6556] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:09:21.326827 #6556] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:09:21.327035 #6556] DEBUG -- :   Product Create (0.1ms)  INSERT INTO `products` (`name`, `description`, `price`, `category_id`) VALUES ('Product 4', 'Description 4', 1, 2)
+D, [2023-03-03T09:09:21.327608 #6556] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:09:21.328201 #6556] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:09:21.328422 #6556] DEBUG -- :   Product Create (0.1ms)  INSERT INTO `products` (`name`, `description`, `price`, `category_id`) VALUES ('Product 5', 'Description 5', 2, 3)
+D, [2023-03-03T09:09:21.329000 #6556] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:09:21.329349 #6556] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:09:21.329556 #6556] DEBUG -- :   Product Create (0.1ms)  INSERT INTO `products` (`name`, `description`, `price`, `category_id`) VALUES ('Product 6', 'Description 6', 3, 3)
+D, [2023-03-03T09:09:21.330160 #6556] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:09:21.334282 #6556] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:09:21.334500 #6556] DEBUG -- :   Client Create (0.1ms)  INSERT INTO `clients` (`firstname`, `lastname`) VALUES ('Benoit', 'Caillouhumbert')
+D, [2023-03-03T09:09:21.335276 #6556] DEBUG -- :   TRANSACTION (0.6ms)  COMMIT
+D, [2023-03-03T09:09:21.335569 #6556] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:09:21.335729 #6556] DEBUG -- :   Client Create (0.1ms)  INSERT INTO `clients` (`firstname`, `lastname`) VALUES ('Louis', 'Sapin')
+D, [2023-03-03T09:09:21.336260 #6556] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
+D, [2023-03-03T09:09:21.336496 #6556] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:09:21.336689 #6556] DEBUG -- :   Client Create (0.1ms)  INSERT INTO `clients` (`firstname`, `lastname`) VALUES ('François', 'Hollande')
+D, [2023-03-03T09:09:21.337153 #6556] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
+D, [2023-03-03T09:09:21.344822 #6556] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:09:21.345097 #6556] DEBUG -- :   Order Create (0.2ms)  INSERT INTO `orders` (`created_at`, `status`, `client_id`) VALUES ('2023-03-03 08:09:21', 'pending', 1)
+D, [2023-03-03T09:09:21.346001 #6556] DEBUG -- :   TRANSACTION (0.8ms)  COMMIT
+D, [2023-03-03T09:09:21.346458 #6556] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:09:21.346667 #6556] DEBUG -- :   Order Create (0.1ms)  INSERT INTO `orders` (`created_at`, `status`, `client_id`) VALUES ('2023-03-03 08:09:21', 'sent', 1)
+D, [2023-03-03T09:09:21.347291 #6556] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:09:21.347828 #6556] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:09:21.347976 #6556] DEBUG -- :   Order Create (0.1ms)  INSERT INTO `orders` (`created_at`, `status`, `client_id`) VALUES ('2023-03-03 08:09:21', 'pending', 2)
+D, [2023-03-03T09:09:21.348651 #6556] DEBUG -- :   TRANSACTION (0.6ms)  COMMIT
+D, [2023-03-03T09:09:21.349254 #6556] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:09:21.349404 #6556] DEBUG -- :   Order Create (0.1ms)  INSERT INTO `orders` (`created_at`, `status`, `client_id`) VALUES ('2023-03-03 08:09:21', 'sent', 3)
+D, [2023-03-03T09:09:21.349893 #6556] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
+D, [2023-03-03T09:10:01.495456 #12556] DEBUG -- :    (0.2ms)  SELECT 1
+D, [2023-03-03T09:10:01.519490 #12556] DEBUG -- :   TRANSACTION (0.2ms)  BEGIN
+D, [2023-03-03T09:10:01.519853 #12556] DEBUG -- :   Category Create (0.2ms)  INSERT INTO `categories` (`name`, `description`) VALUES ('Category 1', 'Description 1')
+D, [2023-03-03T09:10:01.522336 #12556] DEBUG -- :   TRANSACTION (0.8ms)  COMMIT
+D, [2023-03-03T09:10:01.522864 #12556] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:10:01.523161 #12556] DEBUG -- :   Category Create (0.2ms)  INSERT INTO `categories` (`name`, `description`) VALUES ('Category 2', 'Description 2')
+D, [2023-03-03T09:10:01.523748 #12556] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:10:01.524078 #12556] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:10:01.524362 #12556] DEBUG -- :   Category Create (0.1ms)  INSERT INTO `categories` (`name`, `description`) VALUES ('Category 3', 'Description 3')
+D, [2023-03-03T09:10:01.524936 #12556] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:10:01.545962 #12556] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:10:01.546463 #12556] DEBUG -- :   Product Create (0.3ms)  INSERT INTO `products` (`name`, `description`, `price`, `category_id`) VALUES ('Product 1', 'Description 1', 1, 4)
+D, [2023-03-03T09:10:01.547451 #12556] DEBUG -- :   TRANSACTION (0.7ms)  COMMIT
+D, [2023-03-03T09:10:01.548154 #12556] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:10:01.548459 #12556] DEBUG -- :   Product Create (0.2ms)  INSERT INTO `products` (`name`, `description`, `price`, `category_id`) VALUES ('Product 2', 'Description 2', 2, 4)
+D, [2023-03-03T09:10:01.549113 #12556] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:10:01.549989 #12556] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:10:01.550236 #12556] DEBUG -- :   Product Create (0.1ms)  INSERT INTO `products` (`name`, `description`, `price`, `category_id`) VALUES ('Product 3', 'Description 3', 3, 5)
+D, [2023-03-03T09:10:01.550773 #12556] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
+D, [2023-03-03T09:10:01.551291 #12556] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:10:01.551501 #12556] DEBUG -- :   Product Create (0.1ms)  INSERT INTO `products` (`name`, `description`, `price`, `category_id`) VALUES ('Product 4', 'Description 4', 1, 5)
+D, [2023-03-03T09:10:01.552093 #12556] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:10:01.552748 #12556] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:10:01.552958 #12556] DEBUG -- :   Product Create (0.1ms)  INSERT INTO `products` (`name`, `description`, `price`, `category_id`) VALUES ('Product 5', 'Description 5', 2, 6)
+D, [2023-03-03T09:10:01.553519 #12556] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:10:01.554029 #12556] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:10:01.554239 #12556] DEBUG -- :   Product Create (0.1ms)  INSERT INTO `products` (`name`, `description`, `price`, `category_id`) VALUES ('Product 6', 'Description 6', 3, 6)
+D, [2023-03-03T09:10:01.554795 #12556] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:10:01.559067 #12556] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:10:01.559343 #12556] DEBUG -- :   Client Create (0.1ms)  INSERT INTO `clients` (`firstname`, `lastname`) VALUES ('Benoit', 'Caillouhumbert')
+D, [2023-03-03T09:10:01.560211 #12556] DEBUG -- :   TRANSACTION (0.7ms)  COMMIT
+D, [2023-03-03T09:10:01.560663 #12556] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:10:01.560795 #12556] DEBUG -- :   Client Create (0.1ms)  INSERT INTO `clients` (`firstname`, `lastname`) VALUES ('Louis', 'Sapin')
+D, [2023-03-03T09:10:01.561245 #12556] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
+D, [2023-03-03T09:10:01.561641 #12556] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:10:01.561862 #12556] DEBUG -- :   Client Create (0.1ms)  INSERT INTO `clients` (`firstname`, `lastname`) VALUES ('François', 'Hollande')
+D, [2023-03-03T09:10:01.562696 #12556] DEBUG -- :   TRANSACTION (0.7ms)  COMMIT
+D, [2023-03-03T09:10:01.568185 #12556] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:10:01.568393 #12556] DEBUG -- :   Order Create (0.1ms)  INSERT INTO `orders` (`created_at`, `status`, `client_id`) VALUES ('2023-03-03 08:10:01', 'pending', 4)
+D, [2023-03-03T09:10:01.569000 #12556] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:10:01.569482 #12556] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:10:01.569636 #12556] DEBUG -- :   Order Create (0.1ms)  INSERT INTO `orders` (`created_at`, `status`, `client_id`) VALUES ('2023-03-03 08:10:01', 'sent', 4)
+D, [2023-03-03T09:10:01.570144 #12556] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
+D, [2023-03-03T09:10:01.570737 #12556] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:10:01.570897 #12556] DEBUG -- :   Order Create (0.1ms)  INSERT INTO `orders` (`created_at`, `status`, `client_id`) VALUES ('2023-03-03 08:10:01', 'pending', 5)
+D, [2023-03-03T09:10:01.571390 #12556] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
+D, [2023-03-03T09:10:01.571850 #12556] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:10:01.571973 #12556] DEBUG -- :   Order Create (0.1ms)  INSERT INTO `orders` (`created_at`, `status`, `client_id`) VALUES ('2023-03-03 08:10:01', 'sent', 6)
+D, [2023-03-03T09:10:01.572417 #12556] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
+D, [2023-03-03T09:18:16.692392 #21900] DEBUG -- :    (0.2ms)  SELECT 1
+D, [2023-03-03T09:18:16.716520 #21900] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:18:16.717009 #21900] DEBUG -- :   Category Create (0.2ms)  INSERT INTO `categories` (`name`, `description`) VALUES ('Category 1', 'Description 1')
+D, [2023-03-03T09:18:16.719356 #21900] DEBUG -- :   TRANSACTION (0.8ms)  COMMIT
+D, [2023-03-03T09:18:16.719768 #21900] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:18:16.720009 #21900] DEBUG -- :   Category Create (0.1ms)  INSERT INTO `categories` (`name`, `description`) VALUES ('Category 2', 'Description 2')
+D, [2023-03-03T09:18:16.720797 #21900] DEBUG -- :   TRANSACTION (0.7ms)  COMMIT
+D, [2023-03-03T09:18:16.721082 #21900] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:18:16.721298 #21900] DEBUG -- :   Category Create (0.1ms)  INSERT INTO `categories` (`name`, `description`) VALUES ('Category 3', 'Description 3')
+D, [2023-03-03T09:18:16.721878 #21900] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:18:16.743897 #21900] DEBUG -- :   TRANSACTION (0.2ms)  BEGIN
+D, [2023-03-03T09:18:16.744244 #21900] DEBUG -- :   Product Create (0.2ms)  INSERT INTO `products` (`name`, `description`, `price`, `category_id`) VALUES ('Product 1', 'Description 1', 1, 7)
+D, [2023-03-03T09:18:16.745276 #21900] DEBUG -- :   TRANSACTION (0.8ms)  COMMIT
+D, [2023-03-03T09:18:16.745834 #21900] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:18:16.746155 #21900] DEBUG -- :   Product Create (0.2ms)  INSERT INTO `products` (`name`, `description`, `price`, `category_id`) VALUES ('Product 2', 'Description 2', 2, 7)
+D, [2023-03-03T09:18:16.746757 #21900] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:18:16.747472 #21900] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:18:16.747794 #21900] DEBUG -- :   Product Create (0.2ms)  INSERT INTO `products` (`name`, `description`, `price`, `category_id`) VALUES ('Product 3', 'Description 3', 3, 8)
+D, [2023-03-03T09:18:16.748481 #21900] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:18:16.748930 #21900] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:18:16.749145 #21900] DEBUG -- :   Product Create (0.1ms)  INSERT INTO `products` (`name`, `description`, `price`, `category_id`) VALUES ('Product 4', 'Description 4', 1, 8)
+D, [2023-03-03T09:18:16.749751 #21900] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:18:16.750184 #21900] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:18:16.750329 #21900] DEBUG -- :   Product Create (0.1ms)  INSERT INTO `products` (`name`, `description`, `price`, `category_id`) VALUES ('Product 5', 'Description 5', 2, 9)
+D, [2023-03-03T09:18:16.750793 #21900] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
+D, [2023-03-03T09:18:16.751143 #21900] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:18:16.751277 #21900] DEBUG -- :   Product Create (0.1ms)  INSERT INTO `products` (`name`, `description`, `price`, `category_id`) VALUES ('Product 6', 'Description 6', 3, 9)
+D, [2023-03-03T09:18:16.751735 #21900] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
+D, [2023-03-03T09:18:16.755937 #21900] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:18:16.756136 #21900] DEBUG -- :   Client Create (0.1ms)  INSERT INTO `clients` (`firstname`, `lastname`) VALUES ('Benoit', 'Caillouhumbert')
+D, [2023-03-03T09:18:16.756719 #21900] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:18:16.756992 #21900] DEBUG -- :   TRANSACTION (0.0ms)  BEGIN
+D, [2023-03-03T09:18:16.757137 #21900] DEBUG -- :   Client Create (0.1ms)  INSERT INTO `clients` (`firstname`, `lastname`) VALUES ('Louis', 'Sapin')
+D, [2023-03-03T09:18:16.757578 #21900] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
+D, [2023-03-03T09:18:16.757907 #21900] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:18:16.758244 #21900] DEBUG -- :   Client Create (0.2ms)  INSERT INTO `clients` (`firstname`, `lastname`) VALUES ('François', 'Hollande')
+D, [2023-03-03T09:18:16.759064 #21900] DEBUG -- :   TRANSACTION (0.7ms)  COMMIT
+D, [2023-03-03T09:18:16.764847 #21900] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:18:16.765084 #21900] DEBUG -- :   Order Create (0.1ms)  INSERT INTO `orders` (`created_at`, `status`, `client_id`) VALUES ('2023-03-03 08:18:16', 'pending', 7)
+D, [2023-03-03T09:18:16.765752 #21900] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:18:16.766241 #21900] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:18:16.766370 #21900] DEBUG -- :   Order Create (0.1ms)  INSERT INTO `orders` (`created_at`, `status`, `client_id`) VALUES ('2023-03-03 08:18:16', 'sent', 7)
+D, [2023-03-03T09:18:16.766861 #21900] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
+D, [2023-03-03T09:18:16.767341 #21900] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:18:16.767464 #21900] DEBUG -- :   Order Create (0.1ms)  INSERT INTO `orders` (`created_at`, `status`, `client_id`) VALUES ('2023-03-03 08:18:16', 'pending', 8)
+D, [2023-03-03T09:18:16.767927 #21900] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
+D, [2023-03-03T09:18:16.768394 #21900] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:18:16.768609 #21900] DEBUG -- :   Order Create (0.1ms)  INSERT INTO `orders` (`created_at`, `status`, `client_id`) VALUES ('2023-03-03 08:18:16', 'sent', 9)
+D, [2023-03-03T09:18:16.769080 #21900] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
+D, [2023-03-03T09:19:49.563031 #7420] DEBUG -- :    (0.2ms)  SELECT 1
+D, [2023-03-03T09:19:49.588792 #7420] DEBUG -- :   TRANSACTION (0.2ms)  BEGIN
+D, [2023-03-03T09:19:49.589505 #7420] DEBUG -- :   Category Create (0.4ms)  INSERT INTO `categories` (`name`, `description`) VALUES ('Category 1', 'Description 1')
+D, [2023-03-03T09:19:49.592377 #7420] DEBUG -- :   TRANSACTION (0.6ms)  COMMIT
+D, [2023-03-03T09:19:49.592837 #7420] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:19:49.593024 #7420] DEBUG -- :   Category Create (0.1ms)  INSERT INTO `categories` (`name`, `description`) VALUES ('Category 2', 'Description 2')
+D, [2023-03-03T09:19:49.593565 #7420] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
+D, [2023-03-03T09:19:49.593970 #7420] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:19:49.594179 #7420] DEBUG -- :   Category Create (0.1ms)  INSERT INTO `categories` (`name`, `description`) VALUES ('Category 3', 'Description 3')
+D, [2023-03-03T09:19:49.594789 #7420] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:19:49.614227 #7420] DEBUG -- :   TRANSACTION (0.2ms)  BEGIN
+D, [2023-03-03T09:19:49.614660 #7420] DEBUG -- :   Product Create (0.2ms)  INSERT INTO `products` (`name`, `description`, `price`, `category_id`) VALUES ('Product 1', 'Description 1', 1, 10)
+D, [2023-03-03T09:19:49.615707 #7420] DEBUG -- :   TRANSACTION (0.8ms)  COMMIT
+D, [2023-03-03T09:19:49.616247 #7420] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:19:49.616462 #7420] DEBUG -- :   Product Create (0.1ms)  INSERT INTO `products` (`name`, `description`, `price`, `category_id`) VALUES ('Product 2', 'Description 2', 2, 10)
+D, [2023-03-03T09:19:49.617161 #7420] DEBUG -- :   TRANSACTION (0.6ms)  COMMIT
+D, [2023-03-03T09:19:49.617661 #7420] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:19:49.617874 #7420] DEBUG -- :   Product Create (0.1ms)  INSERT INTO `products` (`name`, `description`, `price`, `category_id`) VALUES ('Product 3', 'Description 3', 3, 11)
+D, [2023-03-03T09:19:49.618434 #7420] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:19:49.618777 #7420] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:19:49.619038 #7420] DEBUG -- :   Product Create (0.1ms)  INSERT INTO `products` (`name`, `description`, `price`, `category_id`) VALUES ('Product 4', 'Description 4', 1, 11)
+D, [2023-03-03T09:19:49.619648 #7420] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:19:49.620087 #7420] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:19:49.620259 #7420] DEBUG -- :   Product Create (0.1ms)  INSERT INTO `products` (`name`, `description`, `price`, `category_id`) VALUES ('Product 5', 'Description 5', 2, 12)
+D, [2023-03-03T09:19:49.620839 #7420] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:19:49.621191 #7420] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:19:49.621547 #7420] DEBUG -- :   Product Create (0.1ms)  INSERT INTO `products` (`name`, `description`, `price`, `category_id`) VALUES ('Product 6', 'Description 6', 3, 12)
+D, [2023-03-03T09:19:49.622138 #7420] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:19:49.626365 #7420] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:19:49.626598 #7420] DEBUG -- :   Client Create (0.1ms)  INSERT INTO `clients` (`firstname`, `lastname`) VALUES ('Benoit', 'Caillouhumbert')
+D, [2023-03-03T09:19:49.627341 #7420] DEBUG -- :   TRANSACTION (0.6ms)  COMMIT
+D, [2023-03-03T09:19:49.627807 #7420] DEBUG -- :   TRANSACTION (0.2ms)  BEGIN
+D, [2023-03-03T09:19:49.627969 #7420] DEBUG -- :   Client Create (0.1ms)  INSERT INTO `clients` (`firstname`, `lastname`) VALUES ('Louis', 'Sapin')
+D, [2023-03-03T09:19:49.628616 #7420] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:19:49.628902 #7420] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:19:49.629075 #7420] DEBUG -- :   Client Create (0.1ms)  INSERT INTO `clients` (`firstname`, `lastname`) VALUES ('François', 'Hollande')
+D, [2023-03-03T09:19:49.629533 #7420] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
+D, [2023-03-03T09:19:49.637479 #7420] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:19:49.637712 #7420] DEBUG -- :   Order Create (0.2ms)  INSERT INTO `orders` (`created_at`, `status`, `client_id`) VALUES ('2023-03-03 08:19:49', 'pending', 10)
+D, [2023-03-03T09:19:49.638451 #7420] DEBUG -- :   TRANSACTION (0.6ms)  COMMIT
+D, [2023-03-03T09:19:49.638897 #7420] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:19:49.639063 #7420] DEBUG -- :   Order Create (0.1ms)  INSERT INTO `orders` (`created_at`, `status`, `client_id`) VALUES ('2023-03-03 08:19:49', 'sent', 10)
+D, [2023-03-03T09:19:49.639634 #7420] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:19:49.640291 #7420] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:19:49.640423 #7420] DEBUG -- :   Order Create (0.1ms)  INSERT INTO `orders` (`created_at`, `status`, `client_id`) VALUES ('2023-03-03 08:19:49', 'pending', 11)
+D, [2023-03-03T09:19:49.641016 #7420] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:19:49.641502 #7420] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:19:49.641616 #7420] DEBUG -- :   Order Create (0.1ms)  INSERT INTO `orders` (`created_at`, `status`, `client_id`) VALUES ('2023-03-03 08:19:49', 'sent', 12)
+D, [2023-03-03T09:19:49.642097 #7420] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
+D, [2023-03-03T09:20:29.410400 #5036] DEBUG -- :    (0.2ms)  SELECT 1
+D, [2023-03-03T09:20:29.435338 #5036] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:20:29.435780 #5036] DEBUG -- :   Category Create (0.2ms)  INSERT INTO `categories` (`name`, `description`) VALUES ('Category 1', 'Description 1')
+D, [2023-03-03T09:20:29.438189 #5036] DEBUG -- :   TRANSACTION (0.7ms)  COMMIT
+D, [2023-03-03T09:20:29.438794 #5036] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:20:29.439091 #5036] DEBUG -- :   Category Create (0.2ms)  INSERT INTO `categories` (`name`, `description`) VALUES ('Category 2', 'Description 2')
+D, [2023-03-03T09:20:29.439674 #5036] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:20:29.440028 #5036] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:20:29.440317 #5036] DEBUG -- :   Category Create (0.2ms)  INSERT INTO `categories` (`name`, `description`) VALUES ('Category 3', 'Description 3')
+D, [2023-03-03T09:20:29.440899 #5036] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:20:29.459678 #5036] DEBUG -- :   TRANSACTION (0.2ms)  BEGIN
+D, [2023-03-03T09:20:29.460033 #5036] DEBUG -- :   Product Create (0.2ms)  INSERT INTO `products` (`name`, `description`, `price`, `category_id`) VALUES ('Product 1', 'Description 1', 1, 13)
+D, [2023-03-03T09:20:29.460880 #5036] DEBUG -- :   TRANSACTION (0.6ms)  COMMIT
+D, [2023-03-03T09:20:29.461452 #5036] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:20:29.461743 #5036] DEBUG -- :   Product Create (0.2ms)  INSERT INTO `products` (`name`, `description`, `price`, `category_id`) VALUES ('Product 2', 'Description 2', 2, 13)
+D, [2023-03-03T09:20:29.462314 #5036] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:20:29.462990 #5036] DEBUG -- :   TRANSACTION (0.3ms)  BEGIN
+D, [2023-03-03T09:20:29.463287 #5036] DEBUG -- :   Product Create (0.2ms)  INSERT INTO `products` (`name`, `description`, `price`, `category_id`) VALUES ('Product 3', 'Description 3', 3, 14)
+D, [2023-03-03T09:20:29.463931 #5036] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:20:29.464327 #5036] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:20:29.464525 #5036] DEBUG -- :   Product Create (0.1ms)  INSERT INTO `products` (`name`, `description`, `price`, `category_id`) VALUES ('Product 4', 'Description 4', 1, 14)
+D, [2023-03-03T09:20:29.465097 #5036] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:20:29.465483 #5036] DEBUG -- :   TRANSACTION (0.0ms)  BEGIN
+D, [2023-03-03T09:20:29.465624 #5036] DEBUG -- :   Product Create (0.1ms)  INSERT INTO `products` (`name`, `description`, `price`, `category_id`) VALUES ('Product 5', 'Description 5', 2, 15)
+D, [2023-03-03T09:20:29.466107 #5036] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
+D, [2023-03-03T09:20:29.466556 #5036] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:20:29.467314 #5036] DEBUG -- :   Product Create (0.7ms)  INSERT INTO `products` (`name`, `description`, `price`, `category_id`) VALUES ('Product 6', 'Description 6', 3, 15)
+D, [2023-03-03T09:20:29.467897 #5036] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
+D, [2023-03-03T09:20:29.472217 #5036] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:20:29.472409 #5036] DEBUG -- :   Client Create (0.1ms)  INSERT INTO `clients` (`firstname`, `lastname`) VALUES ('Benoit', 'Caillouhumbert')
+D, [2023-03-03T09:20:29.473121 #5036] DEBUG -- :   TRANSACTION (0.6ms)  COMMIT
+D, [2023-03-03T09:20:29.473472 #5036] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:20:29.473609 #5036] DEBUG -- :   Client Create (0.1ms)  INSERT INTO `clients` (`firstname`, `lastname`) VALUES ('Louis', 'Sapin')
+D, [2023-03-03T09:20:29.474168 #5036] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:20:29.474435 #5036] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:20:29.474606 #5036] DEBUG -- :   Client Create (0.1ms)  INSERT INTO `clients` (`firstname`, `lastname`) VALUES ('François', 'Hollande')
+D, [2023-03-03T09:20:29.475081 #5036] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
+D, [2023-03-03T09:20:29.482628 #5036] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:20:29.483018 #5036] DEBUG -- :   Order Create (0.3ms)  INSERT INTO `orders` (`created_at`, `status`, `client_id`) VALUES ('2023-03-03 08:20:29', 'pending', 13)
+D, [2023-03-03T09:20:29.483580 #5036] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
+D, [2023-03-03T09:20:29.484033 #5036] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:20:29.484177 #5036] DEBUG -- :   Order Create (0.1ms)  INSERT INTO `orders` (`created_at`, `status`, `client_id`) VALUES ('2023-03-03 08:20:29', 'sent', 13)
+D, [2023-03-03T09:20:29.484664 #5036] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
+D, [2023-03-03T09:20:29.485305 #5036] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:20:29.485424 #5036] DEBUG -- :   Order Create (0.1ms)  INSERT INTO `orders` (`created_at`, `status`, `client_id`) VALUES ('2023-03-03 08:20:29', 'pending', 14)
+D, [2023-03-03T09:20:29.485890 #5036] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
+D, [2023-03-03T09:20:29.486327 #5036] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:20:29.486440 #5036] DEBUG -- :   Order Create (0.1ms)  INSERT INTO `orders` (`created_at`, `status`, `client_id`) VALUES ('2023-03-03 08:20:29', 'sent', 15)
+D, [2023-03-03T09:20:29.486885 #5036] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
+D, [2023-03-03T09:21:42.428249 #12056] DEBUG -- :    (0.2ms)  SELECT 1
+D, [2023-03-03T09:21:42.452304 #12056] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:21:42.452717 #12056] DEBUG -- :   Category Create (0.2ms)  INSERT INTO `categories` (`name`, `description`) VALUES ('Category 1', 'Description 1')
+D, [2023-03-03T09:21:42.455204 #12056] DEBUG -- :   TRANSACTION (0.7ms)  COMMIT
+D, [2023-03-03T09:21:42.455658 #12056] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:21:42.455952 #12056] DEBUG -- :   Category Create (0.2ms)  INSERT INTO `categories` (`name`, `description`) VALUES ('Category 2', 'Description 2')
+D, [2023-03-03T09:21:42.456549 #12056] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:21:42.456877 #12056] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:21:42.457161 #12056] DEBUG -- :   Category Create (0.1ms)  INSERT INTO `categories` (`name`, `description`) VALUES ('Category 3', 'Description 3')
+D, [2023-03-03T09:21:42.457750 #12056] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:21:42.476308 #12056] DEBUG -- :   TRANSACTION (0.2ms)  BEGIN
+D, [2023-03-03T09:21:42.476784 #12056] DEBUG -- :   Product Create (0.2ms)  INSERT INTO `products` (`name`, `description`, `price`, `category_id`) VALUES ('Product 1', 'Description 1', 1, 1)
+D, [2023-03-03T09:21:42.477842 #12056] DEBUG -- :   TRANSACTION (0.7ms)  COMMIT
+D, [2023-03-03T09:21:42.478683 #12056] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:21:42.479084 #12056] DEBUG -- :   Product Create (0.2ms)  INSERT INTO `products` (`name`, `description`, `price`, `category_id`) VALUES ('Product 2', 'Description 2', 2, 1)
+D, [2023-03-03T09:21:42.479837 #12056] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:21:42.480566 #12056] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:21:42.480934 #12056] DEBUG -- :   Product Create (0.1ms)  INSERT INTO `products` (`name`, `description`, `price`, `category_id`) VALUES ('Product 3', 'Description 3', 3, 2)
+D, [2023-03-03T09:21:42.481708 #12056] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:21:42.482138 #12056] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:21:42.482290 #12056] DEBUG -- :   Product Create (0.1ms)  INSERT INTO `products` (`name`, `description`, `price`, `category_id`) VALUES ('Product 4', 'Description 4', 1, 2)
+D, [2023-03-03T09:21:42.482827 #12056] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
+D, [2023-03-03T09:21:42.483381 #12056] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:21:42.483518 #12056] DEBUG -- :   Product Create (0.1ms)  INSERT INTO `products` (`name`, `description`, `price`, `category_id`) VALUES ('Product 5', 'Description 5', 2, 3)
+D, [2023-03-03T09:21:42.483969 #12056] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
+D, [2023-03-03T09:21:42.484394 #12056] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:21:42.484542 #12056] DEBUG -- :   Product Create (0.1ms)  INSERT INTO `products` (`name`, `description`, `price`, `category_id`) VALUES ('Product 6', 'Description 6', 3, 3)
+D, [2023-03-03T09:21:42.484992 #12056] DEBUG -- :   TRANSACTION (0.3ms)  COMMIT
+D, [2023-03-03T09:21:42.491361 #12056] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:21:42.491591 #12056] DEBUG -- :   Client Create (0.1ms)  INSERT INTO `clients` (`firstname`, `lastname`) VALUES ('Benoit', 'Caillouhumbert')
+D, [2023-03-03T09:21:42.492259 #12056] DEBUG -- :   TRANSACTION (0.6ms)  COMMIT
+D, [2023-03-03T09:21:42.492527 #12056] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:21:42.492704 #12056] DEBUG -- :   Client Create (0.1ms)  INSERT INTO `clients` (`firstname`, `lastname`) VALUES ('Louis', 'Sapin')
+D, [2023-03-03T09:21:42.493186 #12056] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
+D, [2023-03-03T09:21:42.493443 #12056] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:21:42.493629 #12056] DEBUG -- :   Client Create (0.1ms)  INSERT INTO `clients` (`firstname`, `lastname`) VALUES ('François', 'Hollande')
+D, [2023-03-03T09:21:42.494098 #12056] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
+D, [2023-03-03T09:21:42.500491 #12056] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:21:42.500718 #12056] DEBUG -- :   Order Create (0.1ms)  INSERT INTO `orders` (`created_at`, `status`, `client_id`) VALUES ('2023-03-03 08:21:42', 'pending', 1)
+D, [2023-03-03T09:21:42.501258 #12056] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
+D, [2023-03-03T09:21:42.501781 #12056] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:21:42.501912 #12056] DEBUG -- :   Order Create (0.1ms)  INSERT INTO `orders` (`created_at`, `status`, `client_id`) VALUES ('2023-03-03 08:21:42', 'sent', 1)
+D, [2023-03-03T09:21:42.502483 #12056] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:21:42.503023 #12056] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:21:42.503138 #12056] DEBUG -- :   Order Create (0.1ms)  INSERT INTO `orders` (`created_at`, `status`, `client_id`) VALUES ('2023-03-03 08:21:42', 'pending', 2)
+D, [2023-03-03T09:21:42.503594 #12056] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
+D, [2023-03-03T09:21:42.504033 #12056] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:21:42.504144 #12056] DEBUG -- :   Order Create (0.1ms)  INSERT INTO `orders` (`created_at`, `status`, `client_id`) VALUES ('2023-03-03 08:21:42', 'sent', 3)
+D, [2023-03-03T09:21:42.504603 #12056] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
+D, [2023-03-03T09:22:27.180145 #7176] DEBUG -- :    (0.2ms)  SELECT 1
+D, [2023-03-03T09:22:27.205864 #7176] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:22:27.206241 #7176] DEBUG -- :   Category Create (0.2ms)  INSERT INTO `categories` (`name`, `description`) VALUES ('Category 1', 'Description 1')
+D, [2023-03-03T09:22:27.208742 #7176] DEBUG -- :   TRANSACTION (0.9ms)  COMMIT
+D, [2023-03-03T09:22:27.209274 #7176] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:22:27.209494 #7176] DEBUG -- :   Category Create (0.1ms)  INSERT INTO `categories` (`name`, `description`) VALUES ('Category 2', 'Description 2')
+D, [2023-03-03T09:22:27.210080 #7176] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:22:27.210394 #7176] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:22:27.210596 #7176] DEBUG -- :   Category Create (0.1ms)  INSERT INTO `categories` (`name`, `description`) VALUES ('Category 3', 'Description 3')
+D, [2023-03-03T09:22:27.211314 #7176] DEBUG -- :   TRANSACTION (0.6ms)  COMMIT
+D, [2023-03-03T09:22:27.230082 #7176] DEBUG -- :   TRANSACTION (0.2ms)  BEGIN
+D, [2023-03-03T09:22:27.230427 #7176] DEBUG -- :   Product Create (0.2ms)  INSERT INTO `products` (`name`, `description`, `price`, `category_id`) VALUES ('Product 1', 'Description 1', 1, 4)
+D, [2023-03-03T09:22:27.231407 #7176] DEBUG -- :   TRANSACTION (0.8ms)  COMMIT
+D, [2023-03-03T09:22:27.231936 #7176] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:22:27.232220 #7176] DEBUG -- :   Product Create (0.2ms)  INSERT INTO `products` (`name`, `description`, `price`, `category_id`) VALUES ('Product 2', 'Description 2', 2, 4)
+D, [2023-03-03T09:22:27.232799 #7176] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:22:27.233602 #7176] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:22:27.234304 #7176] DEBUG -- :   Product Create (0.4ms)  INSERT INTO `products` (`name`, `description`, `price`, `category_id`) VALUES ('Product 3', 'Description 3', 3, 5)
+D, [2023-03-03T09:22:27.235073 #7176] DEBUG -- :   TRANSACTION (0.6ms)  COMMIT
+D, [2023-03-03T09:22:27.235623 #7176] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:22:27.235912 #7176] DEBUG -- :   Product Create (0.2ms)  INSERT INTO `products` (`name`, `description`, `price`, `category_id`) VALUES ('Product 4', 'Description 4', 1, 5)
+D, [2023-03-03T09:22:27.236479 #7176] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:22:27.237043 #7176] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:22:27.237274 #7176] DEBUG -- :   Product Create (0.1ms)  INSERT INTO `products` (`name`, `description`, `price`, `category_id`) VALUES ('Product 5', 'Description 5', 2, 6)
+D, [2023-03-03T09:22:27.237832 #7176] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:22:27.238199 #7176] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:22:27.238412 #7176] DEBUG -- :   Product Create (0.1ms)  INSERT INTO `products` (`name`, `description`, `price`, `category_id`) VALUES ('Product 6', 'Description 6', 3, 6)
+D, [2023-03-03T09:22:27.238992 #7176] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:22:27.243277 #7176] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:22:27.243471 #7176] DEBUG -- :   Client Create (0.1ms)  INSERT INTO `clients` (`firstname`, `lastname`) VALUES ('Benoit', 'Caillouhumbert')
+D, [2023-03-03T09:22:27.244024 #7176] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
+D, [2023-03-03T09:22:27.244301 #7176] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:22:27.244420 #7176] DEBUG -- :   Client Create (0.1ms)  INSERT INTO `clients` (`firstname`, `lastname`) VALUES ('Louis', 'Sapin')
+D, [2023-03-03T09:22:27.244858 #7176] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
+D, [2023-03-03T09:22:27.245097 #7176] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:22:27.245266 #7176] DEBUG -- :   Client Create (0.1ms)  INSERT INTO `clients` (`firstname`, `lastname`) VALUES ('François', 'Hollande')
+D, [2023-03-03T09:22:27.245685 #7176] DEBUG -- :   TRANSACTION (0.3ms)  COMMIT
+D, [2023-03-03T09:22:27.253117 #7176] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:22:27.253308 #7176] DEBUG -- :   Order Create (0.1ms)  INSERT INTO `orders` (`created_at`, `status`, `client_id`) VALUES ('2023-03-03 08:22:27', 'pending', 4)
+D, [2023-03-03T09:22:27.253967 #7176] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:22:27.254370 #7176] DEBUG -- :   TRANSACTION (0.0ms)  BEGIN
+D, [2023-03-03T09:22:27.254502 #7176] DEBUG -- :   Order Create (0.1ms)  INSERT INTO `orders` (`created_at`, `status`, `client_id`) VALUES ('2023-03-03 08:22:27', 'sent', 4)
+D, [2023-03-03T09:22:27.254958 #7176] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
+D, [2023-03-03T09:22:27.255536 #7176] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:22:27.255696 #7176] DEBUG -- :   Order Create (0.1ms)  INSERT INTO `orders` (`created_at`, `status`, `client_id`) VALUES ('2023-03-03 08:22:27', 'pending', 5)
+D, [2023-03-03T09:22:27.256248 #7176] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
+D, [2023-03-03T09:22:27.256720 #7176] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:22:27.256834 #7176] DEBUG -- :   Order Create (0.1ms)  INSERT INTO `orders` (`created_at`, `status`, `client_id`) VALUES ('2023-03-03 08:22:27', 'sent', 6)
+D, [2023-03-03T09:22:27.257285 #7176] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
+D, [2023-03-03T09:22:40.737072 #8572] DEBUG -- :    (0.2ms)  SELECT 1
+D, [2023-03-03T09:22:40.756633 #8572] DEBUG -- :   TRANSACTION (0.2ms)  BEGIN
+D, [2023-03-03T09:22:40.757109 #8572] DEBUG -- :   Category Create (0.2ms)  INSERT INTO `categories` (`name`, `description`) VALUES ('Category 1', 'Description 1')
+D, [2023-03-03T09:22:40.759504 #8572] DEBUG -- :   TRANSACTION (0.7ms)  COMMIT
+D, [2023-03-03T09:22:40.760018 #8572] DEBUG -- :   TRANSACTION (0.2ms)  BEGIN
+D, [2023-03-03T09:22:40.760316 #8572] DEBUG -- :   Category Create (0.2ms)  INSERT INTO `categories` (`name`, `description`) VALUES ('Category 2', 'Description 2')
+D, [2023-03-03T09:22:40.761011 #8572] DEBUG -- :   TRANSACTION (0.6ms)  COMMIT
+D, [2023-03-03T09:22:40.761385 #8572] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:22:40.761664 #8572] DEBUG -- :   Category Create (0.1ms)  INSERT INTO `categories` (`name`, `description`) VALUES ('Category 3', 'Description 3')
+D, [2023-03-03T09:22:40.762235 #8572] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:22:40.784143 #8572] DEBUG -- :   TRANSACTION (0.2ms)  BEGIN
+D, [2023-03-03T09:22:40.784504 #8572] DEBUG -- :   Product Create (0.2ms)  INSERT INTO `products` (`name`, `description`, `price`, `category_id`) VALUES ('Product 1', 'Description 1', 1, 7)
+D, [2023-03-03T09:22:40.785352 #8572] DEBUG -- :   TRANSACTION (0.6ms)  COMMIT
+D, [2023-03-03T09:22:40.785942 #8572] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:22:40.786227 #8572] DEBUG -- :   Product Create (0.1ms)  INSERT INTO `products` (`name`, `description`, `price`, `category_id`) VALUES ('Product 2', 'Description 2', 2, 7)
+D, [2023-03-03T09:22:40.786813 #8572] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:22:40.787362 #8572] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:22:40.787563 #8572] DEBUG -- :   Product Create (0.1ms)  INSERT INTO `products` (`name`, `description`, `price`, `category_id`) VALUES ('Product 3', 'Description 3', 3, 8)
+D, [2023-03-03T09:22:40.788084 #8572] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
+D, [2023-03-03T09:22:40.788751 #8572] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:22:40.788971 #8572] DEBUG -- :   Product Create (0.1ms)  INSERT INTO `products` (`name`, `description`, `price`, `category_id`) VALUES ('Product 4', 'Description 4', 1, 8)
+D, [2023-03-03T09:22:40.789600 #8572] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:22:40.790203 #8572] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:22:40.790380 #8572] DEBUG -- :   Product Create (0.1ms)  INSERT INTO `products` (`name`, `description`, `price`, `category_id`) VALUES ('Product 5', 'Description 5', 2, 9)
+D, [2023-03-03T09:22:40.790939 #8572] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
+D, [2023-03-03T09:22:40.791304 #8572] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:22:40.791446 #8572] DEBUG -- :   Product Create (0.1ms)  INSERT INTO `products` (`name`, `description`, `price`, `category_id`) VALUES ('Product 6', 'Description 6', 3, 9)
+D, [2023-03-03T09:22:40.791887 #8572] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
+D, [2023-03-03T09:22:40.795990 #8572] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:22:40.796184 #8572] DEBUG -- :   Client Create (0.1ms)  INSERT INTO `clients` (`firstname`, `lastname`) VALUES ('Benoit', 'Caillouhumbert')
+D, [2023-03-03T09:22:40.796838 #8572] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:22:40.797173 #8572] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:22:40.797310 #8572] DEBUG -- :   Client Create (0.1ms)  INSERT INTO `clients` (`firstname`, `lastname`) VALUES ('Louis', 'Sapin')
+D, [2023-03-03T09:22:40.797821 #8572] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
+D, [2023-03-03T09:22:40.798086 #8572] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:22:40.798257 #8572] DEBUG -- :   Client Create (0.1ms)  INSERT INTO `clients` (`firstname`, `lastname`) VALUES ('François', 'Hollande')
+D, [2023-03-03T09:22:40.798695 #8572] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
+D, [2023-03-03T09:22:40.803958 #8572] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:22:40.804185 #8572] DEBUG -- :   Order Create (0.1ms)  INSERT INTO `orders` (`created_at`, `status`, `client_id`) VALUES ('2023-03-03 08:22:40', 'pending', 7)
+D, [2023-03-03T09:22:40.804930 #8572] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:22:40.805517 #8572] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:22:40.805668 #8572] DEBUG -- :   Order Create (0.1ms)  INSERT INTO `orders` (`created_at`, `status`, `client_id`) VALUES ('2023-03-03 08:22:40', 'sent', 7)
+D, [2023-03-03T09:22:40.806125 #8572] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
+D, [2023-03-03T09:22:40.806624 #8572] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:22:40.806742 #8572] DEBUG -- :   Order Create (0.1ms)  INSERT INTO `orders` (`created_at`, `status`, `client_id`) VALUES ('2023-03-03 08:22:40', 'pending', 8)
+D, [2023-03-03T09:22:40.807265 #8572] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
+D, [2023-03-03T09:22:40.807740 #8572] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:22:40.807854 #8572] DEBUG -- :   Order Create (0.1ms)  INSERT INTO `orders` (`created_at`, `status`, `client_id`) VALUES ('2023-03-03 08:22:40', 'sent', 9)
+D, [2023-03-03T09:22:40.808303 #8572] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
+D, [2023-03-03T09:22:40.813650 #8572] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:22:40.813858 #8572] DEBUG -- :   OrderItem Create (0.1ms)  INSERT INTO `order_items` (`quantity`, `order_id`, `product_id`) VALUES (1, 9, 13)
+D, [2023-03-03T09:22:40.814418 #8572] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:22:40.814892 #8572] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:22:40.815032 #8572] DEBUG -- :   OrderItem Create (0.1ms)  INSERT INTO `order_items` (`quantity`, `order_id`, `product_id`) VALUES (1, 10, 14)
+D, [2023-03-03T09:22:40.815468 #8572] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
+D, [2023-03-03T09:22:40.815872 #8572] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:22:40.816005 #8572] DEBUG -- :   OrderItem Create (0.1ms)  INSERT INTO `order_items` (`quantity`, `order_id`, `product_id`) VALUES (1, 11, 15)
+D, [2023-03-03T09:22:40.816447 #8572] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
+D, [2023-03-03T09:22:40.816845 #8572] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:22:40.816972 #8572] DEBUG -- :   OrderItem Create (0.1ms)  INSERT INTO `order_items` (`quantity`, `order_id`, `product_id`) VALUES (1, 12, 16)
+D, [2023-03-03T09:22:40.817393 #8572] DEBUG -- :   TRANSACTION (0.3ms)  COMMIT
+D, [2023-03-03T09:22:40.817736 #8572] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:22:40.817861 #8572] DEBUG -- :   OrderItem Create (0.1ms)  INSERT INTO `order_items` (`quantity`, `order_id`, `product_id`) VALUES (1, 12, 17)
+D, [2023-03-03T09:22:40.818280 #8572] DEBUG -- :   TRANSACTION (0.3ms)  COMMIT
+D, [2023-03-03T09:22:40.818599 #8572] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:22:40.818729 #8572] DEBUG -- :   OrderItem Create (0.1ms)  INSERT INTO `order_items` (`quantity`, `order_id`, `product_id`) VALUES (1, 12, 18)
+D, [2023-03-03T09:22:40.819144 #8572] DEBUG -- :   TRANSACTION (0.3ms)  COMMIT
+D, [2023-03-03T09:24:32.298641 #12420] DEBUG -- :    (0.2ms)  SELECT 1
+D, [2023-03-03T09:24:32.323693 #12420] DEBUG -- :   TRANSACTION (0.2ms)  BEGIN
+D, [2023-03-03T09:24:32.324116 #12420] DEBUG -- :   Category Create (0.2ms)  INSERT INTO `categories` (`name`, `description`) VALUES ('Category 1', 'Description 1')
+D, [2023-03-03T09:24:32.326910 #12420] DEBUG -- :   TRANSACTION (0.8ms)  COMMIT
+D, [2023-03-03T09:24:32.327416 #12420] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:24:32.327653 #12420] DEBUG -- :   Category Create (0.2ms)  INSERT INTO `categories` (`name`, `description`) VALUES ('Category 2', 'Description 2')
+D, [2023-03-03T09:24:32.328243 #12420] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:24:32.328610 #12420] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:24:32.328890 #12420] DEBUG -- :   Category Create (0.1ms)  INSERT INTO `categories` (`name`, `description`) VALUES ('Category 3', 'Description 3')
+D, [2023-03-03T09:24:32.329466 #12420] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:24:32.348250 #12420] DEBUG -- :   TRANSACTION (0.2ms)  BEGIN
+D, [2023-03-03T09:24:32.348589 #12420] DEBUG -- :   Product Create (0.2ms)  INSERT INTO `products` (`name`, `description`, `price`, `category_id`) VALUES ('Product 1', 'Description 1', 1, 10)
+D, [2023-03-03T09:24:32.349353 #12420] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:24:32.349926 #12420] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:24:32.350219 #12420] DEBUG -- :   Product Create (0.2ms)  INSERT INTO `products` (`name`, `description`, `price`, `category_id`) VALUES ('Product 2', 'Description 2', 2, 10)
+D, [2023-03-03T09:24:32.350788 #12420] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:24:32.351517 #12420] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:24:32.351813 #12420] DEBUG -- :   Product Create (0.2ms)  INSERT INTO `products` (`name`, `description`, `price`, `category_id`) VALUES ('Product 3', 'Description 3', 3, 11)
+D, [2023-03-03T09:24:32.352380 #12420] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:24:32.352796 #12420] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:24:32.353029 #12420] DEBUG -- :   Product Create (0.1ms)  INSERT INTO `products` (`name`, `description`, `price`, `category_id`) VALUES ('Product 4', 'Description 4', 1, 11)
+D, [2023-03-03T09:24:32.353594 #12420] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:24:32.354029 #12420] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:24:32.354245 #12420] DEBUG -- :   Product Create (0.1ms)  INSERT INTO `products` (`name`, `description`, `price`, `category_id`) VALUES ('Product 5', 'Description 5', 2, 12)
+D, [2023-03-03T09:24:32.354797 #12420] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:24:32.355143 #12420] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:24:32.355346 #12420] DEBUG -- :   Product Create (0.1ms)  INSERT INTO `products` (`name`, `description`, `price`, `category_id`) VALUES ('Product 6', 'Description 6', 3, 12)
+D, [2023-03-03T09:24:32.355897 #12420] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
+D, [2023-03-03T09:24:32.360482 #12420] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:24:32.360689 #12420] DEBUG -- :   Client Create (0.1ms)  INSERT INTO `clients` (`firstname`, `lastname`) VALUES ('Benoit', 'Caillouhumbert')
+D, [2023-03-03T09:24:32.361287 #12420] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:24:32.361604 #12420] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:24:32.361747 #12420] DEBUG -- :   Client Create (0.1ms)  INSERT INTO `clients` (`firstname`, `lastname`) VALUES ('Louis', 'Sapin')
+D, [2023-03-03T09:24:32.362227 #12420] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
+D, [2023-03-03T09:24:32.362475 #12420] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:24:32.362649 #12420] DEBUG -- :   Client Create (0.1ms)  INSERT INTO `clients` (`firstname`, `lastname`) VALUES ('François', 'Hollande')
+D, [2023-03-03T09:24:32.363079 #12420] DEBUG -- :   TRANSACTION (0.3ms)  COMMIT
+D, [2023-03-03T09:24:32.370748 #12420] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:24:32.370956 #12420] DEBUG -- :   Order Create (0.1ms)  INSERT INTO `orders` (`created_at`, `status`, `client_id`) VALUES ('2023-03-03 08:24:32', 'pending', 10)
+D, [2023-03-03T09:24:32.371680 #12420] DEBUG -- :   TRANSACTION (0.6ms)  COMMIT
+D, [2023-03-03T09:24:32.372290 #12420] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:24:32.372427 #12420] DEBUG -- :   Order Create (0.1ms)  INSERT INTO `orders` (`created_at`, `status`, `client_id`) VALUES ('2023-03-03 08:24:32', 'sent', 10)
+D, [2023-03-03T09:24:32.372932 #12420] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
+D, [2023-03-03T09:24:32.373552 #12420] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:24:32.373673 #12420] DEBUG -- :   Order Create (0.1ms)  INSERT INTO `orders` (`created_at`, `status`, `client_id`) VALUES ('2023-03-03 08:24:32', 'pending', 11)
+D, [2023-03-03T09:24:32.374140 #12420] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
+D, [2023-03-03T09:24:32.374627 #12420] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:24:32.374755 #12420] DEBUG -- :   Order Create (0.1ms)  INSERT INTO `orders` (`created_at`, `status`, `client_id`) VALUES ('2023-03-03 08:24:32', 'sent', 12)
+D, [2023-03-03T09:24:32.375260 #12420] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
+D, [2023-03-03T09:24:32.380481 #12420] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:24:32.380687 #12420] DEBUG -- :   OrderItem Create (0.1ms)  INSERT INTO `order_items` (`quantity`, `item_price`, `order_id`, `product_id`) VALUES (1, 1, 13, 19)
+D, [2023-03-03T09:24:32.381396 #12420] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:24:32.381878 #12420] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:24:32.382023 #12420] DEBUG -- :   OrderItem Create (0.1ms)  INSERT INTO `order_items` (`quantity`, `item_price`, `order_id`, `product_id`) VALUES (1, 2, 14, 20)
+D, [2023-03-03T09:24:32.382537 #12420] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
+D, [2023-03-03T09:24:32.382983 #12420] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:24:32.383112 #12420] DEBUG -- :   OrderItem Create (0.1ms)  INSERT INTO `order_items` (`quantity`, `item_price`, `order_id`, `product_id`) VALUES (1, 3, 15, 21)
+D, [2023-03-03T09:24:32.383529 #12420] DEBUG -- :   TRANSACTION (0.3ms)  COMMIT
+D, [2023-03-03T09:24:32.383928 #12420] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:24:32.384053 #12420] DEBUG -- :   OrderItem Create (0.1ms)  INSERT INTO `order_items` (`quantity`, `item_price`, `order_id`, `product_id`) VALUES (1, 1, 16, 22)
+D, [2023-03-03T09:24:32.384478 #12420] DEBUG -- :   TRANSACTION (0.3ms)  COMMIT
+D, [2023-03-03T09:24:32.384839 #12420] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:24:32.384968 #12420] DEBUG -- :   OrderItem Create (0.1ms)  INSERT INTO `order_items` (`quantity`, `item_price`, `order_id`, `product_id`) VALUES (1, 2, 16, 23)
+D, [2023-03-03T09:24:32.385401 #12420] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
+D, [2023-03-03T09:24:32.385741 #12420] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:24:32.385868 #12420] DEBUG -- :   OrderItem Create (0.1ms)  INSERT INTO `order_items` (`quantity`, `item_price`, `order_id`, `product_id`) VALUES (1, 3, 16, 24)
+D, [2023-03-03T09:24:32.386285 #12420] DEBUG -- :   TRANSACTION (0.3ms)  COMMIT
+D, [2023-03-03T09:26:31.477449 #15572] DEBUG -- :    (0.2ms)  SELECT 1
+D, [2023-03-03T09:26:31.496368 #15572] DEBUG -- :   TRANSACTION (0.2ms)  BEGIN
+D, [2023-03-03T09:26:31.496712 #15572] DEBUG -- :   Category Create (0.2ms)  INSERT INTO `categories` (`name`, `description`) VALUES ('Category 1', 'Description 1')
+D, [2023-03-03T09:26:31.499023 #15572] DEBUG -- :   TRANSACTION (0.7ms)  COMMIT
+D, [2023-03-03T09:26:31.499630 #15572] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:26:31.499920 #15572] DEBUG -- :   Category Create (0.1ms)  INSERT INTO `categories` (`name`, `description`) VALUES ('Category 2', 'Description 2')
+D, [2023-03-03T09:26:31.500511 #15572] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:26:31.500864 #15572] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:26:31.501143 #15572] DEBUG -- :   Category Create (0.1ms)  INSERT INTO `categories` (`name`, `description`) VALUES ('Category 3', 'Description 3')
+D, [2023-03-03T09:26:31.501826 #15572] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:26:31.520396 #15572] DEBUG -- :   TRANSACTION (0.2ms)  BEGIN
+D, [2023-03-03T09:26:31.520803 #15572] DEBUG -- :   Product Create (0.2ms)  INSERT INTO `products` (`name`, `description`, `price`, `category_id`) VALUES ('Product 1', 'Description 1', 1, 1)
+D, [2023-03-03T09:26:31.521828 #15572] DEBUG -- :   TRANSACTION (0.8ms)  COMMIT
+D, [2023-03-03T09:26:31.522441 #15572] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:26:31.522760 #15572] DEBUG -- :   Product Create (0.2ms)  INSERT INTO `products` (`name`, `description`, `price`, `category_id`) VALUES ('Product 2', 'Description 2', 2, 1)
+D, [2023-03-03T09:26:31.523330 #15572] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:26:31.524064 #15572] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:26:31.524373 #15572] DEBUG -- :   Product Create (0.2ms)  INSERT INTO `products` (`name`, `description`, `price`, `category_id`) VALUES ('Product 3', 'Description 3', 3, 2)
+D, [2023-03-03T09:26:31.524939 #15572] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:26:31.525424 #15572] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:26:31.525739 #15572] DEBUG -- :   Product Create (0.2ms)  INSERT INTO `products` (`name`, `description`, `price`, `category_id`) VALUES ('Product 4', 'Description 4', 1, 2)
+D, [2023-03-03T09:26:31.526287 #15572] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
+D, [2023-03-03T09:26:31.526728 #15572] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:26:31.526922 #15572] DEBUG -- :   Product Create (0.1ms)  INSERT INTO `products` (`name`, `description`, `price`, `category_id`) VALUES ('Product 5', 'Description 5', 2, 3)
+D, [2023-03-03T09:26:31.527475 #15572] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
+D, [2023-03-03T09:26:31.527826 #15572] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:26:31.527971 #15572] DEBUG -- :   Product Create (0.1ms)  INSERT INTO `products` (`name`, `description`, `price`, `category_id`) VALUES ('Product 6', 'Description 6', 3, 3)
+D, [2023-03-03T09:26:31.528407 #15572] DEBUG -- :   TRANSACTION (0.3ms)  COMMIT
+D, [2023-03-03T09:26:31.532555 #15572] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:26:31.532757 #15572] DEBUG -- :   Client Create (0.1ms)  INSERT INTO `clients` (`firstname`, `lastname`) VALUES ('Benoit', 'Caillouhumbert')
+D, [2023-03-03T09:26:31.533426 #15572] DEBUG -- :   TRANSACTION (0.6ms)  COMMIT
+D, [2023-03-03T09:26:31.533758 #15572] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:26:31.533898 #15572] DEBUG -- :   Client Create (0.1ms)  INSERT INTO `clients` (`firstname`, `lastname`) VALUES ('Louis', 'Sapin')
+D, [2023-03-03T09:26:31.534386 #15572] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
+D, [2023-03-03T09:26:31.534637 #15572] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:26:31.534811 #15572] DEBUG -- :   Client Create (0.1ms)  INSERT INTO `clients` (`firstname`, `lastname`) VALUES ('François', 'Hollande')
+D, [2023-03-03T09:26:31.535261 #15572] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
+D, [2023-03-03T09:26:31.542494 #15572] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:26:31.542700 #15572] DEBUG -- :   Order Create (0.1ms)  INSERT INTO `orders` (`created_at`, `status`, `client_id`) VALUES ('2023-03-03 08:26:31', 'pending', 1)
+D, [2023-03-03T09:26:31.543325 #15572] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:26:31.543779 #15572] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:26:31.543934 #15572] DEBUG -- :   Order Create (0.1ms)  INSERT INTO `orders` (`created_at`, `status`, `client_id`) VALUES ('2023-03-03 08:26:31', 'sent', 1)
+D, [2023-03-03T09:26:31.544460 #15572] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
+D, [2023-03-03T09:26:31.545066 #15572] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:26:31.545183 #15572] DEBUG -- :   Order Create (0.1ms)  INSERT INTO `orders` (`created_at`, `status`, `client_id`) VALUES ('2023-03-03 08:26:31', 'pending', 2)
+D, [2023-03-03T09:26:31.545733 #15572] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
+D, [2023-03-03T09:26:31.546207 #15572] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:26:31.546320 #15572] DEBUG -- :   Order Create (0.1ms)  INSERT INTO `orders` (`created_at`, `status`, `client_id`) VALUES ('2023-03-03 08:26:31', 'sent', 3)
+D, [2023-03-03T09:26:31.546762 #15572] DEBUG -- :   TRANSACTION (0.3ms)  COMMIT
+D, [2023-03-03T09:26:31.552472 #15572] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:26:31.552692 #15572] DEBUG -- :   OrderItem Create (0.1ms)  INSERT INTO `order_items` (`quantity`, `item_price`, `order_id`, `product_id`) VALUES (1, 1, 1, 1)
+D, [2023-03-03T09:26:31.553444 #15572] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:26:31.553958 #15572] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:26:31.554100 #15572] DEBUG -- :   OrderItem Create (0.1ms)  INSERT INTO `order_items` (`quantity`, `item_price`, `order_id`, `product_id`) VALUES (1, 2, 2, 2)
+D, [2023-03-03T09:26:31.554611 #15572] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
+D, [2023-03-03T09:26:31.555058 #15572] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:26:31.555189 #15572] DEBUG -- :   OrderItem Create (0.1ms)  INSERT INTO `order_items` (`quantity`, `item_price`, `order_id`, `product_id`) VALUES (1, 3, 3, 3)
+D, [2023-03-03T09:26:31.555643 #15572] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
+D, [2023-03-03T09:26:31.556044 #15572] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:26:31.556173 #15572] DEBUG -- :   OrderItem Create (0.1ms)  INSERT INTO `order_items` (`quantity`, `item_price`, `order_id`, `product_id`) VALUES (1, 1, 4, 4)
+D, [2023-03-03T09:26:31.556622 #15572] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
+D, [2023-03-03T09:26:31.556971 #15572] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:26:31.557097 #15572] DEBUG -- :   OrderItem Create (0.1ms)  INSERT INTO `order_items` (`quantity`, `item_price`, `order_id`, `product_id`) VALUES (1, 2, 4, 5)
+D, [2023-03-03T09:26:31.557540 #15572] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
+D, [2023-03-03T09:26:31.557871 #15572] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:26:31.558000 #15572] DEBUG -- :   OrderItem Create (0.1ms)  INSERT INTO `order_items` (`quantity`, `item_price`, `order_id`, `product_id`) VALUES (1, 3, 4, 6)
+D, [2023-03-03T09:26:31.558451 #15572] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
+D, [2023-03-03T09:37:24.616249 #21556] DEBUG -- :    (0.3ms)  SELECT 1
+D, [2023-03-03T09:37:24.643174 #21556] DEBUG -- :   TRANSACTION (0.2ms)  BEGIN
+D, [2023-03-03T09:37:24.643548 #21556] DEBUG -- :   Category Create (0.2ms)  INSERT INTO `categories` (`name`, `description`) VALUES ('Category 1', 'Description 1')
+D, [2023-03-03T09:37:24.646055 #21556] DEBUG -- :   TRANSACTION (0.8ms)  COMMIT
+D, [2023-03-03T09:37:24.646749 #21556] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:37:24.647094 #21556] DEBUG -- :   Category Create (0.2ms)  INSERT INTO `categories` (`name`, `description`) VALUES ('Category 2', 'Description 2')
+D, [2023-03-03T09:37:24.647864 #21556] DEBUG -- :   TRANSACTION (0.6ms)  COMMIT
+D, [2023-03-03T09:37:24.648265 #21556] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:37:24.648575 #21556] DEBUG -- :   Category Create (0.2ms)  INSERT INTO `categories` (`name`, `description`) VALUES ('Category 3', 'Description 3')
+D, [2023-03-03T09:37:24.649248 #21556] DEBUG -- :   TRANSACTION (0.6ms)  COMMIT
+D, [2023-03-03T09:37:24.670381 #21556] DEBUG -- :   TRANSACTION (0.2ms)  BEGIN
+D, [2023-03-03T09:37:24.670911 #21556] DEBUG -- :   Product Create (0.2ms)  INSERT INTO `products` (`name`, `description`, `price`, `category_id`) VALUES ('Product 1', 'Description 1', 1.0, 1)
+D, [2023-03-03T09:37:24.671695 #21556] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:37:24.672237 #21556] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:37:24.672569 #21556] DEBUG -- :   Product Create (0.2ms)  INSERT INTO `products` (`name`, `description`, `price`, `category_id`) VALUES ('Product 2', 'Description 2', 2.0, 1)
+D, [2023-03-03T09:37:24.673289 #21556] DEBUG -- :   TRANSACTION (0.6ms)  COMMIT
+D, [2023-03-03T09:37:24.673815 #21556] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:37:24.673966 #21556] DEBUG -- :   Product Create (0.1ms)  INSERT INTO `products` (`name`, `description`, `price`, `category_id`) VALUES ('Product 3', 'Description 3', 3.0, 2)
+D, [2023-03-03T09:37:24.674438 #21556] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
+D, [2023-03-03T09:37:24.674802 #21556] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:37:24.674936 #21556] DEBUG -- :   Product Create (0.1ms)  INSERT INTO `products` (`name`, `description`, `price`, `category_id`) VALUES ('Product 4', 'Description 4', 1.0, 2)
+D, [2023-03-03T09:37:24.675378 #21556] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
+D, [2023-03-03T09:37:24.675799 #21556] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:37:24.675929 #21556] DEBUG -- :   Product Create (0.1ms)  INSERT INTO `products` (`name`, `description`, `price`, `category_id`) VALUES ('Product 5', 'Description 5', 2.0, 3)
+D, [2023-03-03T09:37:24.676373 #21556] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
+D, [2023-03-03T09:37:24.676881 #21556] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:37:24.677260 #21556] DEBUG -- :   Product Create (0.1ms)  INSERT INTO `products` (`name`, `description`, `price`, `category_id`) VALUES ('Product 6', 'Description 6', 3.0, 3)
+D, [2023-03-03T09:37:24.677795 #21556] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
+D, [2023-03-03T09:37:24.682348 #21556] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:37:24.682570 #21556] DEBUG -- :   Client Create (0.1ms)  INSERT INTO `clients` (`firstname`, `lastname`) VALUES ('Benoit', 'Caillouhumbert')
+D, [2023-03-03T09:37:24.683159 #21556] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:37:24.683588 #21556] DEBUG -- :   TRANSACTION (0.0ms)  BEGIN
+D, [2023-03-03T09:37:24.683736 #21556] DEBUG -- :   Client Create (0.1ms)  INSERT INTO `clients` (`firstname`, `lastname`) VALUES ('Louis', 'Sapin')
+D, [2023-03-03T09:37:24.684191 #21556] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
+D, [2023-03-03T09:37:24.684444 #21556] DEBUG -- :   TRANSACTION (0.0ms)  BEGIN
+D, [2023-03-03T09:37:24.684618 #21556] DEBUG -- :   Client Create (0.1ms)  INSERT INTO `clients` (`firstname`, `lastname`) VALUES ('François', 'Hollande')
+D, [2023-03-03T09:37:24.685059 #21556] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
+D, [2023-03-03T09:37:24.692836 #21556] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:37:24.693500 #21556] DEBUG -- :   Order Create (0.5ms)  INSERT INTO `orders` (`created_at`, `status`, `client_id`) VALUES ('2023-03-03 08:37:24', 'pending', 1)
+D, [2023-03-03T09:37:24.694264 #21556] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:37:24.695051 #21556] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:37:24.695255 #21556] DEBUG -- :   Order Create (0.1ms)  INSERT INTO `orders` (`created_at`, `status`, `client_id`) VALUES ('2023-03-03 08:37:24', 'sent', 1)
+D, [2023-03-03T09:37:24.695851 #21556] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:37:24.696570 #21556] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:37:24.696748 #21556] DEBUG -- :   Order Create (0.1ms)  INSERT INTO `orders` (`created_at`, `status`, `client_id`) VALUES ('2023-03-03 08:37:24', 'pending', 2)
+D, [2023-03-03T09:37:24.697330 #21556] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:37:24.697808 #21556] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:37:24.697930 #21556] DEBUG -- :   Order Create (0.1ms)  INSERT INTO `orders` (`created_at`, `status`, `client_id`) VALUES ('2023-03-03 08:37:24', 'sent', 3)
+D, [2023-03-03T09:37:24.698478 #21556] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:37:24.704478 #21556] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:37:24.704749 #21556] DEBUG -- :   OrderItem Create (0.2ms)  INSERT INTO `order_items` (`quantity`, `item_price`, `order_id`, `product_id`) VALUES (1, 1.0, 1, 1)
+D, [2023-03-03T09:37:24.705482 #21556] DEBUG -- :   TRANSACTION (0.6ms)  COMMIT
+D, [2023-03-03T09:37:24.706066 #21556] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:37:24.706270 #21556] DEBUG -- :   OrderItem Create (0.1ms)  INSERT INTO `order_items` (`quantity`, `item_price`, `order_id`, `product_id`) VALUES (1, 2.0, 2, 2)
+D, [2023-03-03T09:37:24.706872 #21556] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:37:24.707343 #21556] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:37:24.707538 #21556] DEBUG -- :   OrderItem Create (0.1ms)  INSERT INTO `order_items` (`quantity`, `item_price`, `order_id`, `product_id`) VALUES (1, 3.0, 3, 3)
+D, [2023-03-03T09:37:24.708085 #21556] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:37:24.708821 #21556] DEBUG -- :   TRANSACTION (0.2ms)  BEGIN
+D, [2023-03-03T09:37:24.709179 #21556] DEBUG -- :   OrderItem Create (0.1ms)  INSERT INTO `order_items` (`quantity`, `item_price`, `order_id`, `product_id`) VALUES (1, 1.0, 4, 4)
+D, [2023-03-03T09:37:24.710234 #21556] DEBUG -- :   TRANSACTION (0.8ms)  COMMIT
+D, [2023-03-03T09:37:24.711011 #21556] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:37:24.711234 #21556] DEBUG -- :   OrderItem Create (0.1ms)  INSERT INTO `order_items` (`quantity`, `item_price`, `order_id`, `product_id`) VALUES (1, 2.0, 4, 5)
+D, [2023-03-03T09:37:24.711800 #21556] DEBUG -- :   TRANSACTION (0.5ms)  COMMIT
+D, [2023-03-03T09:37:24.712288 #21556] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-03T09:37:24.712586 #21556] DEBUG -- :   OrderItem Create (0.2ms)  INSERT INTO `order_items` (`quantity`, `item_price`, `order_id`, `product_id`) VALUES (1, 3.0, 4, 6)
+D, [2023-03-03T09:37:24.713122 #21556] DEBUG -- :   TRANSACTION (0.4ms)  COMMIT
