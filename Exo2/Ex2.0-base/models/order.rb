@@ -3,7 +3,7 @@ class Order < ActiveRecord::Base
   has_many :order_items
   has_many :products, through: :order_items
 
-  validates :status, presence: true
+  validates :client, presence: true
 
   def to_s
     "La commande #{id} du #{created_at}"
