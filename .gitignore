@@ -67,3 +67,5 @@ yarn-debug.log*
 /storage/*
 !/storage/.keep
 /public/uploads
+
+Exo2/Exo2.0-base/ar.log
