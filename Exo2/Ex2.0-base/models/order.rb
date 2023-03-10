@@ -11,7 +11,7 @@ class Order < ActiveRecord::Base
     "La commande #{id} du #{created_at}"
   end
 
-  def total
-    order_items.sum(&:price)
+  def price
+    order_items.sum {|item| item.price}
   end
 end
