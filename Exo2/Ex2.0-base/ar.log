@@ -1286,3 +1286,13 @@ D, [2023-03-10T10:27:38.397109 #24232] DEBUG -- :   OrderItem Create (0.2ms)  IN
 D, [2023-03-10T10:27:38.397587 #24232] DEBUG -- :   OrderItem Create (0.2ms)  INSERT INTO `order_items` (`quantity`, `item_price`, `order_id`, `product_id`) VALUES (4, 3.0, 5, 6)
 D, [2023-03-10T10:27:38.398015 #24232] DEBUG -- :   OrderItem Create (0.1ms)  INSERT INTO `order_items` (`quantity`, `item_price`, `order_id`, `product_id`) VALUES (1, 99.0, 5, 6)
 D, [2023-03-10T10:27:38.400928 #24232] DEBUG -- :   TRANSACTION (1.9ms)  ROLLBACK
+D, [2023-03-13T15:57:34.927969 #4548] DEBUG -- :   Client Load (0.2ms)  SELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1
+D, [2023-03-13T15:57:34.994145 #4548] DEBUG -- :   Product Load (0.2ms)  SELECT `products`.* FROM `products` ORDER BY `products`.`id` ASC LIMIT 1
+D, [2023-03-13T15:57:35.009226 #4548] DEBUG -- :   Product Load (0.3ms)  SELECT `products`.* FROM `products` ORDER BY `products`.`id` DESC LIMIT 1
+D, [2023-03-13T15:57:35.009927 #4548] DEBUG -- :   Product Load (0.1ms)  SELECT `products`.* FROM `products` ORDER BY `products`.`id` DESC LIMIT 1
+D, [2023-03-13T15:57:35.012130 #4548] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-13T15:57:35.012395 #4548] DEBUG -- :   Order Create (0.2ms)  INSERT INTO `orders` (`created_at`, `client_id`) VALUES ('2023-03-13 14:57:35', 1)
+D, [2023-03-13T15:57:35.012975 #4548] DEBUG -- :   OrderItem Create (0.2ms)  INSERT INTO `order_items` (`quantity`, `item_price`, `order_id`, `product_id`) VALUES (2, 1.0, 6, 1)
+D, [2023-03-13T15:57:35.013440 #4548] DEBUG -- :   OrderItem Create (0.1ms)  INSERT INTO `order_items` (`quantity`, `item_price`, `order_id`, `product_id`) VALUES (4, 3.0, 6, 6)
+D, [2023-03-13T15:57:35.013859 #4548] DEBUG -- :   OrderItem Create (0.1ms)  INSERT INTO `order_items` (`quantity`, `item_price`, `order_id`, `product_id`) VALUES (1, 99.0, 6, 6)
+D, [2023-03-13T15:57:35.015525 #4548] DEBUG -- :   TRANSACTION (0.8ms)  ROLLBACK
