@@ -11,6 +11,6 @@ class Order < ActiveRecord::Base
   end
 
   def to_s
-    "La commande #{id} du #{created_at}"
+    "La commande #{id} du #{created_at} au prix de #{price}"
   end
 end
