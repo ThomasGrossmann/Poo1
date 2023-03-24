@@ -6,5 +6,9 @@ require_relative 'models'
 #
 
 
-puts "Categories that have never been ordered:"
-puts Category.unordered
+# clients that have no orders
+puts "Clients that have no orders:"
+Client.delete_without_orders.each do |client|
+  puts client
+  client.destroy
+end

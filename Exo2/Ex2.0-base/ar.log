@@ -1719,3 +1719,15 @@ D, [2023-03-24T09:06:33.634939 #23784] DEBUG -- :   Category Load (0.4ms)  SELEC
 D, [2023-03-24T09:06:33.686356 #23784] DEBUG -- :   Order Exists? (0.3ms)  SELECT 1 AS one FROM `orders` INNER JOIN `order_items` ON `orders`.`id` = `order_items`.`order_id` INNER JOIN `products` ON `order_items`.`product_id` = `products`.`id` WHERE `products`.`category_id` = 1 LIMIT 1
 D, [2023-03-24T09:06:33.687143 #23784] DEBUG -- :   Order Exists? (0.2ms)  SELECT 1 AS one FROM `orders` INNER JOIN `order_items` ON `orders`.`id` = `order_items`.`order_id` INNER JOIN `products` ON `order_items`.`product_id` = `products`.`id` WHERE `products`.`category_id` = 2 LIMIT 1
 D, [2023-03-24T09:06:33.687772 #23784] DEBUG -- :   Order Exists? (0.2ms)  SELECT 1 AS one FROM `orders` INNER JOIN `order_items` ON `orders`.`id` = `order_items`.`order_id` INNER JOIN `products` ON `order_items`.`product_id` = `products`.`id` WHERE `products`.`category_id` = 3 LIMIT 1
+D, [2023-03-24T09:25:37.613352 #15184] DEBUG -- :   Client Load (0.3ms)  SELECT `clients`.* FROM `clients`
+D, [2023-03-24T09:25:37.645221 #15184] DEBUG -- :   Order Exists? (0.3ms)  SELECT 1 AS one FROM `orders` WHERE `orders`.`client_id` = 1 LIMIT 1
+D, [2023-03-24T09:25:37.645910 #15184] DEBUG -- :   Order Exists? (0.2ms)  SELECT 1 AS one FROM `orders` WHERE `orders`.`client_id` = 2 LIMIT 1
+D, [2023-03-24T09:25:37.646590 #15184] DEBUG -- :   Order Exists? (0.2ms)  SELECT 1 AS one FROM `orders` WHERE `orders`.`client_id` = 3 LIMIT 1
+D, [2023-03-24T09:26:22.776532 #22108] DEBUG -- :   Client Load (0.4ms)  SELECT `clients`.* FROM `clients`
+D, [2023-03-24T09:26:22.809278 #22108] DEBUG -- :   Order Exists? (0.3ms)  SELECT 1 AS one FROM `orders` WHERE `orders`.`client_id` = 1 LIMIT 1
+D, [2023-03-24T09:26:22.809926 #22108] DEBUG -- :   Order Exists? (0.1ms)  SELECT 1 AS one FROM `orders` WHERE `orders`.`client_id` = 2 LIMIT 1
+D, [2023-03-24T09:26:22.810345 #22108] DEBUG -- :   Order Exists? (0.1ms)  SELECT 1 AS one FROM `orders` WHERE `orders`.`client_id` = 3 LIMIT 1
+D, [2023-03-24T09:26:59.450736 #11712] DEBUG -- :   Client Load (0.2ms)  SELECT `clients`.* FROM `clients`
+D, [2023-03-24T09:26:59.481609 #11712] DEBUG -- :   Order Exists? (0.3ms)  SELECT 1 AS one FROM `orders` WHERE `orders`.`client_id` = 1 LIMIT 1
+D, [2023-03-24T09:26:59.482257 #11712] DEBUG -- :   Order Exists? (0.2ms)  SELECT 1 AS one FROM `orders` WHERE `orders`.`client_id` = 2 LIMIT 1
+D, [2023-03-24T09:26:59.482749 #11712] DEBUG -- :   Order Exists? (0.2ms)  SELECT 1 AS one FROM `orders` WHERE `orders`.`client_id` = 3 LIMIT 1

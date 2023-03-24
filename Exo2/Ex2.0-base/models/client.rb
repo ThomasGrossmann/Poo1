@@ -5,6 +5,10 @@ class Client < ActiveRecord::Base
 
   validates :firstname, :lastname, length: {minimum: 2, maximum: 60}
   
+  def self.delete_without_orders
+    all.reject {|client| client.orders.any?}
+  end
+
   def to_s
     "#{firstname} #{lastname}"
   end
