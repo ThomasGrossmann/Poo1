@@ -6,9 +6,6 @@ require_relative 'models'
 #
 
 
-# display all the orders
-orders = Order.all
-
 # display the more expensive order
 puts "The more expensive order is :"
-puts orders.max_by(&:price)
+puts Order.most_expensive

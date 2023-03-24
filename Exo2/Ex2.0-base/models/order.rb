@@ -6,6 +6,10 @@ class Order < ActiveRecord::Base
   validates :order_items, :client, presence: true
   validates_associated :order_items
 
+  def self.most_expensive
+    all.max_by(&:price)
+  end
+
   def price
     order_items.sum {|item| item.price}
   end
