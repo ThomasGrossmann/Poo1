@@ -6,6 +6,5 @@ require_relative 'models'
 #
 
 
-# display the more expensive order
-puts "The more expensive order is :"
-puts Order.most_expensive
+puts "Categories that have never been ordered:"
+puts Category.unordered
