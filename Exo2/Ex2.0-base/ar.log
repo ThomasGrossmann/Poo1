@@ -1731,3 +1731,13 @@ D, [2023-03-24T09:26:59.450736 #11712] DEBUG -- :   Client Load (0.2ms)  SELECT 
 D, [2023-03-24T09:26:59.481609 #11712] DEBUG -- :   Order Exists? (0.3ms)  SELECT 1 AS one FROM `orders` WHERE `orders`.`client_id` = 1 LIMIT 1
 D, [2023-03-24T09:26:59.482257 #11712] DEBUG -- :   Order Exists? (0.2ms)  SELECT 1 AS one FROM `orders` WHERE `orders`.`client_id` = 2 LIMIT 1
 D, [2023-03-24T09:26:59.482749 #11712] DEBUG -- :   Order Exists? (0.2ms)  SELECT 1 AS one FROM `orders` WHERE `orders`.`client_id` = 3 LIMIT 1
+D, [2023-03-24T09:27:42.038325 #16964] DEBUG -- :   Client Load (0.3ms)  SELECT `clients`.* FROM `clients`
+D, [2023-03-24T09:27:42.072454 #16964] DEBUG -- :   Order Exists? (0.3ms)  SELECT 1 AS one FROM `orders` WHERE `orders`.`client_id` = 1 LIMIT 1
+D, [2023-03-24T09:27:42.073069 #16964] DEBUG -- :   Order Exists? (0.2ms)  SELECT 1 AS one FROM `orders` WHERE `orders`.`client_id` = 2 LIMIT 1
+D, [2023-03-24T09:27:42.073577 #16964] DEBUG -- :   Order Exists? (0.2ms)  SELECT 1 AS one FROM `orders` WHERE `orders`.`client_id` = 3 LIMIT 1
+D, [2023-03-24T09:27:42.074486 #16964] DEBUG -- :   TRANSACTION (0.1ms)  BEGIN
+D, [2023-03-24T09:27:42.075428 #16964] DEBUG -- :   Client Destroy (0.8ms)  DELETE FROM `clients` WHERE `clients`.`id` = 3
+D, [2023-03-24T09:27:42.078105 #16964] DEBUG -- :   TRANSACTION (2.4ms)  COMMIT
+D, [2023-03-24T09:32:46.988408 #16252] DEBUG -- :   Order Exists? (1.6ms)  SELECT 1 AS one FROM `orders` WHERE `orders`.`created_at` BETWEEN '2023-01-01' AND '2023-12-31' LIMIT 1
+D, [2023-03-24T09:33:14.437323 #11916] DEBUG -- :   Order Exists? (0.3ms)  SELECT 1 AS one FROM `orders` WHERE `orders`.`created_at` BETWEEN '2023-01-01' AND '2023-12-31' LIMIT 1
+D, [2023-03-24T09:34:17.714524 #1672] DEBUG -- :   Order Exists? (0.3ms)  SELECT 1 AS one FROM `orders` WHERE `orders`.`created_at` BETWEEN '2023-01-01' AND '2023-12-31' LIMIT 1

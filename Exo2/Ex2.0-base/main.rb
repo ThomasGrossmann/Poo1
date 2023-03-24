@@ -6,9 +6,12 @@ require_relative 'models'
 #
 
 
-# clients that have no orders
-puts "Clients that have no orders:"
-Client.delete_without_orders.each do |client|
-  puts client
-  client.destroy
+start_date = Date.new(2023, 1, 1)
+end_date = Date.new(2023, 12, 31)
+
+puts "Y a-t-il des commandes entre le #{start_date} et le #{end_date} ?"
+if Order.between?(start_date, end_date)
+  puts "Oui"
+else
+  puts "Non"
 end
