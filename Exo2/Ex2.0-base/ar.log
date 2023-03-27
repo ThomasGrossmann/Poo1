@@ -1741,3 +1741,4 @@ D, [2023-03-24T09:27:42.078105 #16964] DEBUG -- :   TRANSACTION (2.4ms)  COMMIT
 D, [2023-03-24T09:32:46.988408 #16252] DEBUG -- :   Order Exists? (1.6ms)  SELECT 1 AS one FROM `orders` WHERE `orders`.`created_at` BETWEEN '2023-01-01' AND '2023-12-31' LIMIT 1
 D, [2023-03-24T09:33:14.437323 #11916] DEBUG -- :   Order Exists? (0.3ms)  SELECT 1 AS one FROM `orders` WHERE `orders`.`created_at` BETWEEN '2023-01-01' AND '2023-12-31' LIMIT 1
 D, [2023-03-24T09:34:17.714524 #1672] DEBUG -- :   Order Exists? (0.3ms)  SELECT 1 AS one FROM `orders` WHERE `orders`.`created_at` BETWEEN '2023-01-01' AND '2023-12-31' LIMIT 1
+D, [2023-03-24T10:04:49.497013 #16700] DEBUG -- :   Order Exists? (0.3ms)  SELECT 1 AS one FROM `orders` WHERE `orders`.`created_at` BETWEEN '2023-01-01' AND '2023-12-31' LIMIT 1
