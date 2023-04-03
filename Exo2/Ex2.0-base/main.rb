@@ -6,12 +6,8 @@ require_relative 'models'
 #
 
 
-start_date = Date.new(2023, 1, 1)
-end_date = Date.new(2023, 12, 31)
-
-puts "Y a-t-il des commandes entre le #{start_date} et le #{end_date} ?"
-if Order.between?(start_date, end_date)
-  puts "Oui"
-else
-  puts "Non"
+# afficher les catégories qui ont des produits qui coutent plus de 100
+puts "Categories with expensive products:"
+Category.expensive.each do |category|
+  puts category
 end

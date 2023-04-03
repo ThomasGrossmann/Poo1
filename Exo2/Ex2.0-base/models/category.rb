@@ -9,6 +9,11 @@ class Category < ActiveRecord::Base
     all.reject {|category| category.orders.any?}
   end
 
+  # afficher les catégories qui ont des produits qui coutent plus de 100
+  def self.expensive
+    all.select {|category| category.products.any? {|product| product.price > 100}}
+  end
+
   def to_s
     name
   end
